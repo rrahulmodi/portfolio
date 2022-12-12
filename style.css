@@ -10,8 +10,8 @@
 .top_menu {
   color: black;
   position: fixed;
-  padding-left: 96%;
-  padding-top: 2%;
+  right: 2%;
+  top: 2%;
 }
 .top_menu i {
   font-size: 40px;
@@ -51,23 +51,31 @@
   border-radius: 8px;
 }
 .collage {
-  padding-left: 3%;
+  position: relative;
+  margin-left: 40%;
+  padding-left: 2%;
   display: flex;
   padding-top: 2rem;
 }
-.collage img {
-  margin: 10px 0px;
-}
+/* .collage img {
+  margin: 10px;
+} */
 .left_img_section {
   /* flex-wrap: wrap; */
-  width: 50%;
-  margin-left: 40%;
-  margin-right: 0px;
+  width: 45%;
+}
+.left_img_section img {
+  padding: 2% 3%;
+  width: 100%;
 }
 .right_img_section {
+  width: 45%;
   /* flex-wrap: wrap; */
-  width: 50%;
-  margin-left: 0px;
+}
+.right_img_section img {
+  margin-left: 8%;
+  margin-bottom: 4%;
+  width: 100%;
 }
 .about {
   padding-left: 2%;
@@ -252,4 +260,45 @@ a {
 }
 .review_section h3 {
   padding: 10% 0% 6% 0%;
+}
+
+table,
+th,
+td {
+  color: gray;
+  border: 1px solid gray;
+  border-collapse: collapse;
+  width: 100%;
+  height: 4rem;
+  box-shadow: 4px 0 2px -2px rgba(0, 0, 0, 0.4);
+  text-align: center;
+  margin: 1%;
+}
+.price-table {
+  display: flex;
+}
+.left_table p {
+  color: gray;
+  font-size: 25px;
+  padding: 0.5rem;
+}
+.right_table p {
+  color: gray;
+  font-size: 25px;
+  padding: 0.5rem;
+}
+.first_row td {
+  font-size: 25px;
+  height: 6rem;
+  color: white;
+  background-color: black;
+}
+.first_row_left td {
+  font-size: 25px;
+  height: 6rem;
+  color: white;
+  background-color: gray;
+}
+.month-price {
+  height: 8rem;
 }
