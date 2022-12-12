@@ -1,0 +1,252 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Montserrat", sans-serif;
+}
+.header {
+  display: flex;
+  line-height: 70px;
+}
+.top_menu {
+  color: black;
+  position: fixed;
+  padding-left: 96%;
+  padding-top: 2%;
+}
+.top_menu i {
+  font-size: 40px;
+}
+.left_girl {
+  width: 35%;
+  position: fixed;
+  top: 0;
+}
+.right_text {
+  margin-left: 40%;
+  padding-top: 18%;
+  width: 65%;
+  align-items: center;
+  text-align: center;
+}
+.right_text h1 {
+  font-size: 70px;
+  font-weight: 600;
+}
+.right_text h2 {
+  font-size: 16px;
+  font-weight: 400;
+}
+.right_text h3 {
+  color: gray;
+  font-weight: 500;
+  font-size: 30px;
+  margin-right: 70%;
+  margin-top: 17%;
+}
+.button {
+  color: black;
+  text-decoration: none;
+  background-color: rgba(128, 128, 128, 0.159);
+  padding: 15px 30px;
+  border-radius: 8px;
+}
+.collage {
+  display: flex;
+  padding-top: 2rem;
+}
+.collage img {
+  margin: 10px 0px;
+}
+.left_img_section {
+  /* flex-wrap: wrap; */
+  width: 50%;
+  margin-left: 40%;
+  margin-right: 0px;
+}
+.right_img_section {
+  /* flex-wrap: wrap; */
+  width: 50%;
+  margin-left: 0px;
+}
+.about {
+  padding-top: 3rem;
+  margin-left: 40%;
+}
+.about h3 {
+  color: gray;
+  font-size: 2rem;
+  font-weight: 400;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.about p {
+  color: gray;
+  margin-right: 2rem;
+  padding-bottom: 2rem;
+}
+.my-skills {
+  padding-top: 3rem;
+  margin-left: 40%;
+  margin-right: 2%;
+}
+.my-skills h3 {
+  color: gray;
+  font-size: 2rem;
+  font-weight: 400;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.bar1 {
+  display: flex;
+  padding-bottom: 3%;
+}
+.my-skills h4 {
+  font-weight: 400;
+  color: gray;
+  font-size: 1.2rem;
+  padding-bottom: 3%;
+  padding-top: 2%;
+  letter-spacing: 7px;
+}
+.my-skills p {
+  color: white;
+}
+.full-bar {
+  display: flex;
+}
+.first-half {
+  width: 95%;
+  padding: 1% 0%;
+  text-align: center;
+  align-items: center;
+  background-color: gray;
+}
+.second-half {
+  width: 5%;
+  text-align: center;
+  align-items: center;
+  background-color: rgba(128, 128, 128, 0.207);
+}
+.first-half_1 {
+  width: 85%;
+  padding: 1% 0%;
+  text-align: center;
+  align-items: center;
+  background-color: gray;
+}
+.second-half_1 {
+  width: 15%;
+  text-align: center;
+  align-items: center;
+  background-color: rgba(128, 128, 128, 0.207);
+}
+.first-half_2 {
+  width: 80%;
+  padding: 1% 0%;
+  text-align: center;
+  align-items: center;
+  background-color: gray;
+}
+.second-half_2 {
+  width: 20%;
+  text-align: center;
+  align-items: center;
+  background-color: rgba(128, 128, 128, 0.207);
+}
+.testimonials {
+  display: flex;
+  justify-content: space-between;
+  background-color: gray;
+  margin: 7% 0%;
+  padding: 5%;
+}
+.testimonials p {
+  color: white;
+  text-align: center;
+}
+.top {
+  font-size: 26px;
+}
+.contact-form {
+  padding-top: 6%;
+  padding-bottom: 6%;
+}
+.contact-form i {
+  color: gray;
+  font-size: 2.5rem;
+  padding: 0% 5% 0% 0%;
+}
+.contact-form p {
+  color: gray;
+  font-size: 1rem;
+  padding: 2% 0%;
+}
+.form p {
+  padding-top: 5%;
+  padding-bottom: 2%;
+  color: gray;
+}
+.fields {
+  margin: 1% 2% 1% 0%;
+  padding: 2% 0% 2% 1%;
+  width: 99%;
+  border-radius: 1%;
+  border: 1px solid rgba(128, 128, 128, 0.387);
+}
+.submit-button {
+  margin: 1% 2% 1% 0%;
+  padding: 2% 0% 2% 1%;
+  width: 25%;
+  border-radius: 1%;
+  border: 1px solid rgba(128, 128, 128, 0.387);
+}
+.footer-icons {
+  text-align: center;
+  padding: 3% 0% 2% 0%;
+  color: gray;
+  font-size: 1.5rem;
+}
+footer {
+  margin-left: 0%;
+  margin-top: 10%;
+  padding: 5% 0% 10% 0%;
+  text-align: center;
+  background-color: rgba(128, 128, 128, 0.164);
+}
+.bottom p,
+a {
+  color: gray;
+}
+.reviews {
+  display: flex;
+  height: 140px;
+}
+.reviews img {
+  height: 80%;
+  border-radius: 50%;
+}
+.reviews p {
+  color: gray;
+}
+.pp {
+  width: 15%;
+}
+.tp {
+  padding-top: 2%;
+  width: 80%;
+}
+.designation {
+  font-weight: 400;
+  font-size: 16px;
+  padding-left: 5%;
+}
+.actual_review {
+  padding-top: 4%;
+}
+.name_review {
+  font-weight: 600;
+  font-size: 19px;
+}
+.review_section h3 {
+  padding: 10% 0% 6% 0%;
+}
